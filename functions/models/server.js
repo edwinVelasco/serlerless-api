@@ -3,6 +3,7 @@ const express = require('express')
 const cors = require('cors')
 
 const { dbConnection } = require('../database/config')
+const { frbConnection } = require('../database/firebase')
 
 class Server {
     constructor() {
